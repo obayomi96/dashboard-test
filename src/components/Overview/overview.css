@@ -2,13 +2,14 @@
   width: 60%;
   position: absolute;
   float: right;
-  top: 100px;
-  right: 10px;
+  top: 6.25rem;
+  right: 0.625rem;
   border-radius: 2px;
-  padding: 32px;
+  padding: 2rem;
   background: #fff;
   line-height: 2.5;
   border: 1px solid #ddd;
+  box-sizing: border-box;
 }
 
 .small-nav {
@@ -16,6 +17,7 @@
   width: 100%;
   align-items: center;
   justify-content: space-between;
+  box-sizing: border-box;
 }
 
 .navs {
@@ -25,13 +27,13 @@
 .navs > ul {
   display: flex;
   justify-content: space-between;
-  padding: 0 0 0 10px;
-  font-size: 20px;
+  padding: 0 0 0 0.625rem;
+  font-size: 1.25rem;
 }
 
 .navs > ul > li {
   margin: 0;
-  padding: 0 10px 0 0;
+  padding: 0 0.625rem 0 0;
   list-style-type: none;
 }
 
@@ -39,7 +41,8 @@
   display: flex;
   width: 35%;
   float: right;
-  padding: 0 15px;
+  padding: 0 0.938rem;
+  box-sizing: border-box;
 }
 
 .nav-icons > ul {
@@ -50,25 +53,50 @@
 .r-nav {
   display: flex;
   align-items: center;
-  padding: 0 8px;
+  padding: 0 0.5rem;
+}
+
+.search-div {
+  width: 12.5rem;
 }
 
 .nav-search {
   box-shadow: none;
   border-radius: 5px;
-  height: 40px;
-  padding: 5px;
+  height: 2.5rem;
+  padding: 0.313rem;
   outline: none;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .r-nav-btn {
   outline: none;
   height: 2.5rem;
-  border-radius: 5px;
+  border-radius: 0.313rem;
   background: #ddd;
   width: 6rem;
 }
 
 .filter {
   font-size: 18px;
+}
+
+.colored-col {
+  background: orange;
+}
+
+.colored-col-2 {
+  background: green;
+}
+
+.color {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10px;
+  width: 10px;
+  border-radius: 1px;
+  /* margin: auto; */
+  margin: 15px 30px 0 0;
 }

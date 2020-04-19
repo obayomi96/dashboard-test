@@ -29,7 +29,7 @@ const Overview = () => {
               Filter
             </button>
           </div>
-          <div>
+          <div className="search-div">
             <input type="search" className="nav-search" placeholder="Search order..." />
           </div>
         </div>
@@ -46,14 +46,14 @@ const Overview = () => {
         </thead>
         <tbody>
           <tr>
-            <td>Table cell</td>
+            <td><div className="color colored-col"></div></td>
             <td>#FC09910</td>
             <td> Aug 8, 2019</td>
             <td>4</td>
             <td>₦4,211</td>
           </tr>
           <tr>
-            <td>Table cell</td>
+          <td><div className="color colored-col-2"></div></td>
             <td>#FC09882</td>
             <td>Aug 3, 2019</td>
             <td>2</td>

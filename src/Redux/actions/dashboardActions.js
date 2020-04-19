@@ -9,19 +9,24 @@ import {
   GET_PRODUCTS,
 } from './types';
 
+import data from '../../data/buyer.json';
+
 export const fetchBuyer = () => async (dispatch) => {
-  const response = await axios.get('../../data/buyer.json');
-  console.log('buyer', response);
-  if (response.code === 200) {
+  // const response = await axios.get('../../data/buyer.json');
+  fetch(data)
+      .then(res => res.json())
+      .then(data => console.log(data))
+  console.log('buyer', res);
+  if (res.code === 200) {
     dispatch({
       type: GET_BUYER,
-      payload: response.data
-    })
+      payload: res.data
+    });
   }
 }
 
 export const fetchOrders = () => async (dispatch) => {
-  const response = await axios.get('../../data/order.json');
+  // const response = await axios.get('../../data/order.json');
   console.log('orders', response)
   if (response.code === 200) {
     dispatch({
@@ -32,7 +37,7 @@ export const fetchOrders = () => async (dispatch) => {
 }
 
 export const fetchOrderItem = () => async (dispatch) => {
-  const response = await axios.get('../../data/order_item.json');
+  // const response = await axios.get('../../data/order_item.json');
   console.log('order items', response)
   if (response.code === 200) {
     dispatch({
@@ -43,7 +48,7 @@ export const fetchOrderItem = () => async (dispatch) => {
 }
 
 export const fetchWeekly = () => async (dispatch) => {
-  const response = await axios.get('../../data/weekly.json');
+  // const response = await axios.get('../../data/weekly.json');
   console.log('weekly', response);
   if (response.code === 200) {
     dispatch({
@@ -54,7 +59,7 @@ export const fetchWeekly = () => async (dispatch) => {
 }
 
 export const fetchWeeklyItems = () => async (dispatch) => {
-  const response = await axios.get('../../data/weekly.json');
+  // const response = await axios.get('../../data/weekly.json');
   console.log('weekly items', response)
   if (response.code === 200) {
     dispatch({
@@ -64,9 +69,8 @@ export const fetchWeeklyItems = () => async (dispatch) => {
   }
 }
 
-
 export const fetchProducts = () => async (dispatch) => {
-  const response = await axios.get('../../data/product.json');
+  // const response = await axios.get('../../data/product.json');
   console.log('product', response);
   if (response.code === 200) {
     dispatch({

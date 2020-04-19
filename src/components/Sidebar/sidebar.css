@@ -1,6 +1,50 @@
 .sidebar-div {
-  height: 145vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 75.547rem;
   width: 20%;
   background:#fff;
-  z-index: 2;
+  line-height: 2.5;
+}
+
+.sidebar-inner-div > ul > li  {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.sidebar-inner-div > ul > .grp {
+  color: #C4CAD0;
+  list-style-type: none;
+}
+
+.sidebar-inner-div > ul > .dash {
+  color: #3b54ec;
+}
+
+.label {
+  color: white;
+  background: red;
+  padding: 5px;
+  border-radius: 30%;
+  font-size: small;
+}
+
+.sidebar-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  height: 45px;
+  font-size: 20px;
+  padding: 30px;
+  padding: 0 5px;
+  font-weight: normal;
+  position: absolute;
+  bottom: 0;
+  background: rgba(232, 233, 234, 0.828);
+  color: #3b54ec;
+  border-radius: 10px;
 }

@@ -22,6 +22,19 @@
   width: 100%
 }
 
+.comp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 25px;
+  margin: auto 0;
+  text-align: center;
+  background: #ddd;
+  color: green;
+  border-radius: 5px;
+}
+
 .order-div > .navs {
   font-weight: bold;
   display: flex;

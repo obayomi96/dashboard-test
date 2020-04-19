@@ -9,7 +9,7 @@ const Order = () => {
   return (
     <div className="order-div">
       <h3>Order #FC09882</h3>
-      <Table  borderless={true} responsive>
+      <Table borderless={true} responsive>
         <thead className="t-2">
           <tr >
             <th>Date</th>
@@ -21,7 +21,7 @@ const Order = () => {
         <tbody>
           <tr>
             <td>Aug 3, 2019</td>
-            <td>Completed</td>
+            <td><div className="comp">Completed</div></td>
             <td>Suplias</td>
             <td><h1>₦2,350</h1></td>
           </tr>

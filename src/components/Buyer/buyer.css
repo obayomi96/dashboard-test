@@ -4,8 +4,8 @@
   height: auto;
   background: #fff;
   position: absolute;
-  left: 22%;
-  top: 12.5%;
+  left: 23.125rem;
+  top: 6.25rem;
   padding: 0.625rem;
   border: 1px solid #ddd;
   border-radius: 0.313rem;
@@ -73,4 +73,23 @@
 
 .sidebar-inner-div > ul > li {
   list-style-type: circle;
+}
+
+.star {
+  color: orange;
+}
+
+.rating {
+  display: flex;;
+  align-items: center;
+}
+
+.rating > span {
+  padding-left: 8px;
+  font-size: 18px;
+  color: gray;
+}
+
+.d {
+  color: rgb(219, 219, 119);
 }

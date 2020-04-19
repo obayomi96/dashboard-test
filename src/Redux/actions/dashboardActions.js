@@ -69,7 +69,6 @@ export const fetchWeeklyItems = () => async (dispatch) => {
   }
 }
 
-
 export const fetchProducts = () => async (dispatch) => {
   // const response = await axios.get('../../data/product.json');
   console.log('product', response);

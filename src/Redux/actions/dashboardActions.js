@@ -26,7 +26,7 @@ export const fetchBuyer = () => async (dispatch) => {
 }
 
 export const fetchOrders = () => async (dispatch) => {
-  const response = await axios.get('../../data/order.json');
+  // const response = await axios.get('../../data/order.json');
   console.log('orders', response)
   if (response.code === 200) {
     dispatch({
@@ -37,7 +37,7 @@ export const fetchOrders = () => async (dispatch) => {
 }
 
 export const fetchOrderItem = () => async (dispatch) => {
-  const response = await axios.get('../../data/order_item.json');
+  // const response = await axios.get('../../data/order_item.json');
   console.log('order items', response)
   if (response.code === 200) {
     dispatch({
@@ -48,7 +48,7 @@ export const fetchOrderItem = () => async (dispatch) => {
 }
 
 export const fetchWeekly = () => async (dispatch) => {
-  const response = await axios.get('../../data/weekly.json');
+  // const response = await axios.get('../../data/weekly.json');
   console.log('weekly', response);
   if (response.code === 200) {
     dispatch({
@@ -59,7 +59,7 @@ export const fetchWeekly = () => async (dispatch) => {
 }
 
 export const fetchWeeklyItems = () => async (dispatch) => {
-  const response = await axios.get('../../data/weekly.json');
+  // const response = await axios.get('../../data/weekly.json');
   console.log('weekly items', response)
   if (response.code === 200) {
     dispatch({
@@ -71,7 +71,7 @@ export const fetchWeeklyItems = () => async (dispatch) => {
 
 
 export const fetchProducts = () => async (dispatch) => {
-  const response = await axios.get('../../data/product.json');
+  // const response = await axios.get('../../data/product.json');
   console.log('product', response);
   if (response.code === 200) {
     dispatch({

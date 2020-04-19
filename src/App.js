@@ -12,15 +12,6 @@ import url from './data/order.json';
 
 function App() {
 
-  useEffect(() => {
-    function fetchData() {
-      axios.get(url)
-      .then(res => res.json())
-      .then(data => console.log(data))
-    }
-    fetchData();
-  },[])
-
   return (
     <BrowserRouter>
       <div className="App">

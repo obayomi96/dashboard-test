@@ -1,0 +1,86 @@
+.order-div {
+  width: 60%;
+  position: absolute;
+  float: right;
+  top: 500px;
+  right: 10px;
+  border-radius: 2px;
+  padding: 32px 0 32px 32px;
+  background: #fff;
+  line-height: 3;
+  border: 1px solid #ddd;
+}
+
+.img-tb {
+  width: 32px;
+  height: 50px;
+}
+
+.t-22 {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  width: 100%
+}
+
+.order-div > .navs {
+  font-weight: bold;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+/* .o-small-nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.o-navs {
+  width: 50%;
+}
+
+.o-navs > ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 0 10px;
+  font-size: 20px;
+}
+
+.o-navs > ul > li {
+  margin: 0;
+  padding: 0 10px 0 0;
+  list-style-type: none;
+}
+
+.o-small-nav-2 {
+  display: flex;
+  width: 35%;
+  float: right;
+  padding: 0 15px;
+}
+
+.o-r-nav {
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+}
+
+.nav-search {
+  box-shadow: none;
+  border-radius: 5px;
+  height: 40px;
+  padding: 5px;
+  outline: none;
+}
+
+.r-nav-btn {
+  outline: none;
+  height: 2.5rem;
+  border-radius: 5px;
+  background: #ddd;
+  width: 6rem;
+} */

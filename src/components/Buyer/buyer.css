@@ -1,0 +1,84 @@
+.buyer-div {
+  display: block;
+  width: 16%;
+  height: auto;
+  background: #fff;
+  position: absolute;
+  left: 22%;
+  top: 12.5%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.buyer {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 10 auto;
+  padding: 10px;
+}
+
+.buyer > p > b {
+  color: #ddd;
+}
+
+.buyer-img {
+  height: 100px;
+  width: 100px;
+}
+
+.sidebar-header {
+  width: 90%;
+  background: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin: 0 auto;
+  position: relative;
+  top: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  z-index: 100;
+}
+
+.sidebar-img-div {
+  padding: 0 0 0 10px;
+}
+
+.sidebar-img {
+  border-radius: 50%;
+}
+
+.header-div-2 {
+  display: block;
+  padding: 0 5px
+}
+
+.header-div-2 > p, b {
+  margin: 0;
+}
+
+.sidebar-inner-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  font-size: 20px;
+  font-weight: bold;
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px;
+  line-height: 2;
+}
+
+.sidebar-inner-div > ul > li {
+  list-style-type: circle;
+}
+
+.buyer-store {
+
+}
+
+.buyer-billing {
+
+}

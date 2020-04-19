@@ -1,0 +1,23 @@
+.dash-div {
+  /* background: red; */
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+}
+
+.overview {
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+}
+
+section {
+  margin: 0;
+}
+
+.main-dash {
+  width: 78%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

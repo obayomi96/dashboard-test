@@ -60,7 +60,7 @@ const Order = () => {
           </tr>
         </tbody>
       </Table>
-      <button>
+      <button className="order-btn">
         Edit order
       </button>
     </div>

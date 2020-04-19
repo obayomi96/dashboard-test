@@ -1,9 +1,19 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import axios from 'axios';
 import './buyer.css';
 
-import usrImg from '../../assets/images/userimage.png'
+import usrImg from '../../assets/images/userimage.png';
+import url from '../../data/order.json';
 
 const Buyer = () => {
+  // useEffect(() => {
+  //   function fetchData() {
+  //     axios.get(url)
+  //     .then(res => res.json())
+  //     .then(data => console.log(data))
+  //   }
+  //   fetchData();
+  // },[])
   return (
     <div className="buyer-div">
       <p style={{fontSize: '24px', padding: '0 15px'}}><b>Buyer Info</b></p>

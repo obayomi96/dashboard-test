@@ -2,18 +2,18 @@
   width: 60%;
   position: absolute;
   float: right;
-  top: 500px;
-  right: 10px;
-  border-radius: 2px;
-  padding: 32px 0 32px 32px;
+  top: 31.25rem;
+  right: 0.625rem;
+  border-radius: 0.125rem;
+  padding: 2rem 0 2rem 2rem;
   background: #fff;
   line-height: 3;
   border: 1px solid #ddd;
 }
 
 .img-tb {
-  width: 32px;
-  height: 50px;
+  width: 2rem;
+  height: 3.125rem;
 }
 
 .t-22 {
@@ -28,6 +28,17 @@
   width: 100%;
   align-items: center;
   justify-content: space-between;
+}
+
+.order-btn {
+  background: #3b54ec;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  /* width: 4.5rem; */
+  height: 3rem;
+  text-align: center;
 }
 
 

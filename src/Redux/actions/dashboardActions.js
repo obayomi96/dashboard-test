@@ -9,14 +9,19 @@ import {
   GET_PRODUCTS,
 } from './types';
 
+import data from '../../data/buyer.json';
+
 export const fetchBuyer = () => async (dispatch) => {
-  const response = await axios.get('../../data/buyer.json');
-  console.log('buyer', response);
-  if (response.code === 200) {
+  // const response = await axios.get('../../data/buyer.json');
+  fetch(data)
+      .then(res => res.json())
+      .then(data => console.log(data))
+  console.log('buyer', res);
+  if (res.code === 200) {
     dispatch({
       type: GET_BUYER,
-      payload: response.data
-    })
+      payload: res.data
+    });
   }
 }
 

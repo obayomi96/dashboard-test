@@ -7,7 +7,6 @@ import {
   GET_PRODUCTS,
 } from '../actions/types';
 
-
 export const initialState = {
   buyer: {},
   orders: [],
